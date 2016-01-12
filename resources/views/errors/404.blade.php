@@ -112,8 +112,8 @@
 
     </div>
 
-    {!! HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') !!}
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <!--  {!! HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') !!} -->
+    <script>window.jQuery || document.write('<script src="{{ config("app.url") }}js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
     {!! HTML::script('js/vendor/docs.min.js') !!}
     {!! HTML::script('js/vendor/ie10-viewport-bug-workaround.js') !!}
     
